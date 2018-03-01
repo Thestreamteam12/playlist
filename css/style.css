@@ -1,1 +1,19 @@
+body{
+    background-color: black;
+}
 
+div{
+    color:white;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+}
+
+button{
+    text-align:center;
+    margin-left: -50px;
+    
+}
