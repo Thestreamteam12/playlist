@@ -17,35 +17,47 @@
 
 // Songs
 var mySong = {
-	"title":"24K Magic",
-	"artist":"Bruno Mars",
-	"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-	"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+	"title":"New Rules",
+	"artist":"Dua Lipa",
+	"mp3-url":"https://www.youtube.com/watch?v=k2qgadSvNyU",
+	"image-url":"http://www.nme.com/news/music/dua-lipa-new-rules-christmas-2166432",
+	"songLengthMinutes": 3,
+	"songLengthSeconds": 44
 }
 
 var myPlayList = [
 	{
-		"title":"24K Magic",
-		"artist":"Bruno Mars",
-		"mp3-url":"https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-		"image-url":"https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+		"title":"Benz Truck",
+		"artist":"Lil Peep",
+		"mp3-url":"https://www.youtube.com/watch?v=3rkJ3L5Ce80",
+		"image-url":"http://www.syracuse.com/celebrity-news/index.ssf/2017/11/lil_peep_dead_rapper_gustav_ahr.html",
+		'songLengthMinutes': 2,
+		'songLengthSeconds': 40
+		
 	},
 	{
-		"title":"Sir Duke",
-		"artist":"Stevie Wonder",
-		"mp3-url":"https://open.spotify.com/track/2udw7RDkldLFIPG9WYdVtT",
-		"image-url":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Songs_in_the_key_of_life.jpg/220px-Songs_in_the_key_of_life.jpg",
+		"title":"Baby Came Home 2/Valentines",
+		"artist":"The Neighbourhood",
+		"mp3-url":"https://www.youtube.com/watch?v=c0V3OKDigeY",
+		"image-url":"https://www.billboard.com/music/the-neighbourhood",
+		'songLengthMinutes':6,
+		'songLengthSeconds': 30
 	},
 	{
-		"title":"Sorry",
-		"artist":"Justin Bieber",
-		"mp3-url":"https://open.spotify.com/track/09CtPGIpYB4BrO8qb1RGsF",
-		"image-url":"http://assets-s3.usmagazine.com/uploads/assets/articles/93827-justin-biebers-sorry-choreographer-spills-video-style-secrets-parris-goebel/1445638548_justin-bieber-sorry-dancers-zoom.jpg",
+		"title":"",
+		"artist":"",
+		"mp3-url":"",
+		"image-url":"",
 	}
 
 ]
 
 
+
+	
+	
+	
+	
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
@@ -72,3 +84,6 @@ function addSong(){
   
   
 }
+
+
+('body').append('<p> title:  ' + mySong.title + '</p>');

@@ -1,19 +1,27 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 
-div{
-    color:white;
+.song{
+    color:black;
     text-align: center;
 }
+
 
 
 h1{
     text-align: center;
+    margin-left: -1000px;
+    
 }
 
 button{
     text-align:center;
-    margin-left: -50px;
-    
+    margin-left: 5px;
+}
+
+
+.Peep{
+    height:300px;
+    margin-top:-30px;
 }
