@@ -17,72 +17,86 @@
 
 // Songs
 var mySong = {
-	"title":"New Rules",
-	"artist":"Dua Lipa",
-	"mp3-url":"https://www.youtube.com/watch?v=k2qgadSvNyU",
-	"image-url":"http://www.nme.com/news/music/dua-lipa-new-rules-christmas-2166432",
+	"title": "New Rules",
+	"artist": "Dua Lipa",
+	"mp3-url": "https://www.youtube.com/watch?v=k2qgadSvNyU",
+	"image-url": "http://www.nme.com/news/music/dua-lipa-new-rules-christmas-2166432",
 	"songLengthMinutes": 3,
 	"songLengthSeconds": 44
 }
 
-var myPlayList = [
-	{
-		"title":"Benz Truck",
-		"artist":"Lil Peep",
-		"mp3-url":"https://www.youtube.com/watch?v=3rkJ3L5Ce80",
-		"image-url":"http://www.syracuse.com/celebrity-news/index.ssf/2017/11/lil_peep_dead_rapper_gustav_ahr.html",
+var myPlayList = [{
+		"title": "Benz Truck",
+		"artist": "Lil Peep",
+		"mp3-url": "https://www.youtube.com/watch?v=3rkJ3L5Ce80",
+		"image-url": "",
 		'songLengthMinutes': 2,
 		'songLengthSeconds': 40
-		
+
 	},
 	{
-		"title":"Baby Came Home 2/Valentines",
-		"artist":"The Neighbourhood",
-		"mp3-url":"https://www.youtube.com/watch?v=c0V3OKDigeY",
-		"image-url":"https://www.billboard.com/music/the-neighbourhood",
-		'songLengthMinutes':6,
+		"title": "Baby Came Home 2/Valentines",
+		"artist": "The Neighbourhood",
+		"mp3-url": "https://www.youtube.com/watch?v=c0V3OKDigeY",
+		"image-url": "https://www.billboard.com/music/the-neighbourhood",
+		'songLengthMinutes': 6,
 		'songLengthSeconds': 30
 	},
 	{
-		"title":"",
-		"artist":"",
-		"mp3-url":"",
-		"image-url":"",
+		"title": "New Rules",
+		"artist": "Dua Lipa",
+		"mp3-url": "https://www.youtube.com/watch?v=k2qgadSvNyU",
+		"image-url": "http://www.nme.com/news/music/dua-lipa-new-rules-christmas-2166432",
+		"songLengthMinutes": 3,
+		"songLengthSeconds": 44
+
 	}
 
 ]
 
+var myPlayListArray = [
+
+	for (var i = 0; i < myPlayListArray.length; i++ {
+			console.log(myPlayList[i]).title;
+
+		})
 
 
-	
-	
-	
-	
+
+
+];
+
+
+
+
+
+
+
 
 // DOCUMENT READY FUNCTION
-$( document ).ready(function() {
-  
+$(document).ready(function() {
+
 
 
 
 });
 
-function displayList(){
+function displayList() {
 
 
-  
+
 }
 
-function clearList(){
-  
-  
-  
+function clearList() {
+
+
+
 }
 
-function addSong(){
- 
-  
-  
+function addSong() {
+
+
+
 }
 
 
