@@ -56,10 +56,10 @@ var myPlayList = [{
 
 var myPlayListArray = [
 
-	for (var i = 0; i < myPlayListArray.length; i++ {
-			console.log(myPlayList[i]).title;
+//		for (var i = 0; i < myPlayListArray.length; i++ {
+//			console.log(myPlayList[i]).title;
 
-		})
+//		})
 
 
 
@@ -101,3 +101,16 @@ function addSong() {
 
 
 ('body').append('<p> title:  ' + mySong.title + '</p>');
+
+$("#submit").click(function() {
+    var newSong = {
+        title: $("#title").val(),
+        artist: $("#artist").val(),
+        PlayLink: $("#play-link").val(),
+        AlbumImage: $("#album-image").val()
+        // Create an object with a title, 
+        // artist, link, and image value
+        // from the inputs in the HTML
+    };
+    console.log(newSong);
+});
